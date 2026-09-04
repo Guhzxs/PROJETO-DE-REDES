@@ -1,0 +1,19 @@
+LAN1:
+- Rede IPv4: 120.20.30.0/24
+- Cada switch agora possui uma subrede:
+	Switch0: 120.20.30.0/24
+	Switch1: 120.20.31.0/24
+
+LAN2:
+- Rede IPv4: 192.168.0.0/16
+- Como o subnet possui 2 octetos de bits, precisamos atualizar a subrede a partir do segundo bloco, logo:
+	Switch4: 192.168.0.1/16
+	Switch5: 192.169.0.1/16
+
+LAN3:
+- Rede IPv4: 10.0.0.0/18
+- Agora o subnet ocupa 18 bits: 2 octetos + 2 bits, o que significa que sobram 6 bits para o host.
+- 2^6 = 64, então cada subnet vai atualizar a cada 64 (0 - 64 - 128 - 192).
+- Lembrando, o quarto octeto ainda atualiza a cada 1 (0 -> 255)
+	Switch6: 10.0.0.1/18
+	Access Point-PT: 10.0.64.1/18
