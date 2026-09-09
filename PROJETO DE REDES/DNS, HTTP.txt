@@ -1,0 +1,6 @@
+Nesta atualização, configuramos:
+O servidor DNS
+O servidor HTTP
+O protocolo RIP entre as LANs
+Acessamos index.html para testar o funcionamento do DNS e HTTP
+Corrigimos o endereço IPv4 e gateway das máquinas na LAN2
