@@ -1,4 +1,4 @@
-# 🌐 Projeto de Infraestrutura de Rede: Subnetting, RIPv2 e Segurança
+# 🌐 Projeto de Infraestrutura de Rede: Interconexão de Redes
 
 ## 📖 Sobre o Projeto
 Este repositório contém a implementação de uma topologia de rede corporativa simulada no **Cisco Packet Tracer**. O projeto integra cálculos de endereçamento (IPv4 Subnetting/VLSM), roteamento dinâmico entre filiais, serviços de rede centralizados (DNS/HTTP/DHCP) e políticas de segurança via listas de controle de acesso (ACL).
