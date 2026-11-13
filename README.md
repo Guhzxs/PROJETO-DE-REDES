@@ -1,4 +1,4 @@
-# Projeto Prático de Redes: IPv4 Subnetting e Troubleshooting
+# Projeto Prático de Redes: Interconexão de Redes
 
 ## 📝 Descrição do Projeto
 Este repositório documenta a resolução de um laboratório de Redes de Computadores, dividido em duas frentes: a consolidação teórica do cálculo avançado de sub-redes (IPv4) e a aplicação prática de *troubleshooting* de conectividade (Camada 3) numa topologia simulada no Cisco Packet Tracer.
